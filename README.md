@@ -61,26 +61,6 @@ JavaScript / TypeScript for extension logic
   ├── translator.js (API integration)
   └── audioEngine.js (playback & sync)
 
-⚠️ Challenges & Considerations
-
-Latency: Achieving near real-time translation requires buffering and efficient streaming.
-
-DRM: Services like Netflix use protected content; extension must process audio only after it’s rendered, not bypass DRM.
-
-Network Speed: Cloud translation adds round-trip latency—quality of connection matters.
-
-API Costs: Real-time STT + translation + TTS can be expensive at scale.
-
-📌 Roadmap
-
- Build base extension template
-
- Implement audio capture
-
- Add streaming STT + translation + TTS pipeline
-
- Improve sync & latency handling
-
  Add language selector
 
  Add optional subtitles in Amharic
